@@ -1,0 +1,77 @@
+name: Update archive
+
+on:
+  push:
+    branches: [ "master" ]
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      DRIVER_URL: https://oss.qu-in.ltd/Labelife/Label_Printer_Driver_Linux.zip
+    steps:
+      - uses: actions/checkout@v6
+      - uses: cachix/install-nix-action@v31
+      - name: Check for changes
+        id: check
+        shell: nix develop --command bash {0}
+        run: |
+          stored_etag=$(awk 'BEGIN{FS=": "}tolower($1)=="etag"{print $2}' headers.http 2>/dev/null || true)
+          headers=$(curl --head "$DRIVER_URL" | tee headers.http)
+          remote_etag=$(echo "$headers" | awk 'BEGIN{FS=": "}tolower($1)=="etag"{print $2}')
+          echo "remote_etag=$remote_etag"
+          echo "stored_etag=$stored_etag"
+          if [ "$stored_etag" = "$remote_etag" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Download and extract
+        id: download
+        if: steps.check.outputs.changed == 'true'
+        shell: nix develop --command bash {0}
+        run: |
+          curl --fail --location --remote-name "$DRIVER_URL"
+          zipfile=$(basename "$DRIVER_URL")
+          tmpdir=$(mktemp -d)
+          unzip -jo "$zipfile" -d "$tmpdir"
+          rm --recursive --force "$zipfile"
+          rm --recursive --force driver
+          mkdir driver
+          tar --extract --gzip --file "$tmpdir"/*.tar.gz --directory driver --strip-components=1
+          version=$(basename "$tmpdir"/*.tar.gz .tar.gz)
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          mkdir --parents archive
+          cp "$tmpdir"/*.tar.gz "archive/"
+      - name: Sign tarball
+        if: steps.check.outputs.changed == 'true'
+        uses: sigstore/gh-action-sigstore-python@v3.3.0
+        with:
+          inputs: archive/${{ steps.download.outputs.version }}.tar.gz
+          upload-signing-artifacts: true
+      - name: Upload to Internet Archive
+        if: steps.check.outputs.changed == 'true'
+        shell: nix develop --command bash {0}
+        env:
+          IA_ACCESS_KEY_ID: ${{ secrets.IA_ACCESS_KEY_ID }}
+          IA_SECRET_ACCESS_KEY: ${{ secrets.IA_SECRET_ACCESS_KEY }}
+        run: |
+          version="${{ steps.download.outputs.version }}"
+          ia upload "labelife-linux-drivers" "archive/${version}.tar.gz" "archive/${version}.tar.gz.sigstore.json" --verify --checksum
+      - name: Commit if changed
+        if: steps.check.outputs.changed == 'true'
+        shell: nix develop --command bash {0}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add driver/ archive/ headers.http
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit --message "${{ steps.download.outputs.version }}"
+          git push
