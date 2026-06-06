@@ -1,0 +1,24 @@
+HTTP/2 200 
+server: Tengine
+content-type: application/zip
+content-length: 4313040
+date: Sat, 06 Jun 2026 23:25:55 GMT
+x-oss-request-id: 6A24AC83357C943437B7B2AF
+x-oss-cdn-auth: success
+accept-ranges: bytes
+x-oss-object-type: Normal
+x-oss-storage-class: Standard
+content-md5: lFUu8taPpEHkCyVdjqWqgg==
+x-oss-server-time: 42
+via: ens-cache11.l2de4[0,0,304-0,H], ens-cache1.l2de4[1,0], ens-cache9.us26[113,113,200-0,H], ens-cache5.us26[126,0]
+etag: "94552EF2D68FA441E40B255D8EA5AA82"
+last-modified: Thu, 19 Mar 2026 08:14:30 GMT
+x-oss-hash-crc64ecma: 4068871280887482678
+age: 147
+ali-swift-global-savetime: 1780788355
+x-cache: HIT TCP_REFRESH_HIT dirn:11:195630496
+x-swift-savetime: Sat, 06 Jun 2026 23:28:22 GMT
+x-swift-cachetime: 3600
+timing-allow-origin: *
+eagleid: 0819529917807885022833526e
+

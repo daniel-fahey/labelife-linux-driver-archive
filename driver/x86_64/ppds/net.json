@@ -1,0 +1,42 @@
+[
+    {
+        "model": "QR380A-241-WF",
+        "name": "PM-241-WF(WIFI)",
+        "ppd": "PM-241-WIFI.ppd"
+    },
+    {
+        "model": "QR380A-242-WF",
+        "name": "AM-242-WF(WIFI)",
+        "ppd": "AM-242-WIFI.ppd"
+    },
+    {
+        "model": "QR380A-243-WF",
+        "name": "AM-243-WF(WIFI)",
+        "ppd": "AM-243-WIFI.ppd"
+    },
+    {
+        "model": "QR380A-246S-WF",
+        "name": "PM-246S-WF(WIFI)",
+        "ppd": "PM-246S-WIFI.ppd"
+    },
+    {
+        "model": "QR380A-344-WF",
+        "name": "PM-344-WF(WIFI)",
+        "ppd": "PM-344-WIFI.ppd"
+    },
+    {
+        "model": "QR380A-247-WF",
+        "name": "PM-247-WF(WIFI)",
+        "ppd": "PM-247-WIFI.ppd"
+    },
+    {
+        "model": "QR380A-248-WF",
+        "name": "PM-248-WF(WIFI)",
+        "ppd": "PM-248-WIFI.ppd"
+    },
+    {
+        "model": "QR380A-249-WF",
+        "name": "PM-249-WF(WIFI)",
+        "ppd": "PM-249-WIFI.ppd"
+    }
+]

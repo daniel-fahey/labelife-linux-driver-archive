@@ -1,0 +1,307 @@
+[
+    {
+        "model": "LabelPrinter",
+        "name": "LabelPrinter",
+        "ppd": "Label Printer.ppd"
+    },
+    {
+        "model": "Label Printer",
+        "name": "Label Printer",
+        "ppd": "Label-Printer.ppd"
+    },
+    {
+        "model": "LabelPrinterBT",
+        "name": "LabelPrinterBT",
+        "ppd": "Label Printer-BT.ppd"
+    },
+    {
+        "model": "LabelPrinter242",
+        "name": "LabelPrinter242",
+        "ppd": "Label Printer242.ppd"
+    },
+    {
+        "model": "LabelPrinter242-BT",
+        "name": "LabelPrinter242-BT",
+        "ppd": "Label Printer242-BT.ppd"
+    },
+    {
+        "model": "PM-241",
+        "name": "PM-241",
+        "ppd": "PM-241.ppd"
+    },
+    {
+        "model": "PM-241-BT",
+        "name": "PM-241-BT",
+        "ppd": "PM-241-BT.ppd"
+    },
+    {
+        "model": "D520",
+        "name": "D520",
+        "ppd": "D520 Printer.ppd"
+    },
+    {
+        "model": "D530",
+        "name": "D530",
+        "ppd": "D530 Printer.ppd"
+    },
+    {
+        "model": "T200",
+        "name": "T200",
+        "ppd": "T200 Printer.ppd"
+    },
+    {
+        "model": "T300",
+        "name": "T300",
+        "ppd": "T300 Printer.ppd"
+    },
+    {
+        "model": "T200_Pro",
+        "name": "T200_Pro",
+        "ppd": "T200_Pro.ppd"
+    },
+    {
+        "model": "T200_PRO",
+        "name": "T200_PRO",
+        "ppd": "T200_Pro.ppd"
+    },
+    {
+        "model": "Q300",
+        "name": "Q300",
+        "ppd": "Q300.ppd"
+    },
+    {
+        "model": "6XL",
+        "name": "6XL",
+        "ppd": "6XL.ppd"
+    },
+    {
+        "model": "650",
+        "name": "650",
+        "ppd": "650.ppd"
+    },
+    {
+        "model": "T350",
+        "name": "T350",
+        "ppd": "T350 Printer.ppd"
+    },
+    {
+        "model": "650_PRO",
+        "name": "650_PRO",
+        "ppd": "650Pro.ppd"
+    },
+    {
+        "model": "PM-241-WF",
+        "name": "PM-241-WF(USB)",
+        "ppd": "PM-241-WF.ppd"
+    },
+    {
+        "model": "PM-241-WIFI",
+        "name": "PM-241-WF(WIFI)",
+        "ppd": "PM-241-WIFI.ppd"
+    },
+    {
+        "model": "AM-242-WF",
+        "name": "AM-242-WF(USB)",
+        "ppd": "AM-242-WF.ppd"
+    },
+    {
+        "model": "AM-242-WIFI",
+        "name": "AM-242-WF(WIFI)",
+        "ppd": "AM-242-WIFI.ppd"
+    },
+    {
+        "model": "AM-243-WF",
+        "name": "AM-243-WF(USB)",
+        "ppd": "AM-243-WF.ppd"
+    },
+    {
+        "model": "AM-243-WIFI",
+        "name": "AM-243-WF(WIFI)",
+        "ppd": "AM-243-WIFI.ppd"
+    },
+    {
+        "model": "660",
+        "name": "660",
+        "ppd": "660.ppd"
+    },
+    {
+        "model": "T310",
+        "name": "T310",
+        "ppd": "T310 Printer.ppd"
+    },
+    {
+        "model": "CT200",
+        "name": "CT200",
+        "ppd": "T800 Printer.ppd"
+    },
+    {
+        "model": "T800",
+        "name": "T800",
+        "ppd": "CT200 Printer.ppd"
+    },
+    {
+        "model": "CT200_PRO",
+        "name": "CT200_PRO",
+        "ppd": "CT200_PRO"
+    },
+    {
+        "model": "CT310",
+        "name": "CT310",
+        "ppd": "CT310 Printer.ppd"
+    },
+    {
+        "model": "CT610",
+        "name": "CT610",
+        "ppd": "CT610 Printer.ppd"
+    },
+    {
+        "model": "PM-246S",
+        "name": "PM-246S",
+        "ppd": "PM-246S.ppd"
+    },
+    {
+        "model": "PM-246S-BT",
+        "name": "PM-246S-BT",
+        "ppd": "PM-246S-BT.ppd"
+    },
+    {
+        "model": "PM-246S-WF",
+        "name": "PM-246S-WF(USB)",
+        "ppd": "PM-246S-WF.ppd"
+    },
+    {
+        "model": "PM-246S-WIFI",
+        "name": "PM-246S-WF(WIFI)",
+        "ppd": "PM-246S-WIFI.ppd"
+    },
+    {
+        "model": "PM-344-WF",
+        "name": "PM-344-WF(USB)",
+        "ppd": "PM-344-WF.ppd"
+    },
+    {
+        "model": "PM-344-WIFI",
+        "name": "PM-344-WF(WIFI)",
+        "ppd": "PM-344-WIFI.ppd"
+    },
+    {
+        "model": "CT510",
+        "name": "CT510",
+        "ppd": "CT510 Printer.ppd"
+    },
+    {
+        "model": "CS 60pro 200",
+        "name": "CS 60pro 200",
+        "ppd": "CS 60pro 200.ppd"
+    },
+    {
+        "model": "CS 60pro 300BT",
+        "name": "CS 60pro 300BT",
+        "ppd": "CS 60pro 300BT.ppd"
+    },
+    {
+        "model": "PM-247-WF",
+        "name": "PM-247-WF(USB)",
+        "ppd": "PM-247-WF.ppd"
+    },
+    {
+        "model": "PM-247-WIFI",
+        "name": "PM-247-WF(WIFI)",
+        "ppd": "PM-247-WIFI.ppd"
+    },
+    {
+        "model": "PM-248-WF",
+        "name": "PM-248-WF(USB)",
+        "ppd": "PM-248-WF.ppd"
+    },
+    {
+        "model": "PM-248-WIFI",
+        "name": "PM-248-WF(WIFI)",
+        "ppd": "PM-248-WIFI.ppd"
+    },
+    {
+        "model": "PM-249-WF",
+        "name": "PM-249-WF(USB)",
+        "ppd": "PM-249-WF.ppd"
+    },
+    {
+        "model": "PM-249-WIFI",
+        "name": "PM-249-WF(WIFI)",
+        "ppd": "PM-249-WIFI.ppd"
+    },
+    {
+        "model": "D450",
+        "name": "D450",
+        "ppd": "D450 Printer.ppd"
+    },
+    {
+        "model": "6XL Pro",
+        "name": "6XL Pro",
+        "ppd": "6XL Pro.ppd"
+    },
+    {
+        "model": "AM-243-BT",
+        "name": "AM-243-BT",
+        "ppd": "AM-243-BT.ppd"
+    },
+    {
+        "model": "PL70",
+        "name": "PL70",
+        "ppd": "PL70.ppd"
+    },
+    {
+        "model": "DS-50P",
+        "name": "DS-50P",
+        "ppd": "DS-50P.ppd"
+    },
+    {
+        "model": "D550",
+        "name": "D550",
+        "ppd": "D550 Printer.ppd"
+    },
+    {
+        "model": "D550 Pro",
+        "name": "D550 Pro",
+        "ppd": "D550 Pro.ppd"
+    },
+    {
+        "model": "D530 Pro",
+        "name": "D530 Pro",
+        "ppd": "D530 Pro.ppd"
+    },
+    {
+        "model": "PM2410BT",
+        "name": "PM-2410-BT",
+        "ppd": "PM-2410-BT.ppd"
+    },
+    {
+        "model": "PM2411BT",
+        "name": "PM-2411-BT",
+        "ppd": "PM-2411-BT.ppd"
+    },
+    {
+        "model": "D521 Pro",
+        "name": "D521 Pro",
+        "ppd": "D521 Pro.ppd"
+    },
+    {
+        "model": "A64M",
+        "name": "A64M",
+        "ppd": "A64M.ppd"
+    },
+    {
+        "model": "PM64D",
+        "name": "PM64D",
+        "ppd": "PM64D.ppd"
+    },
+    {
+        "model": "D420D",
+        "name": "D420D",
+        "ppd": "D420D.ppd"
+    },
+    {
+        "model": "A646",
+        "name": "A646",
+        "ppd": "A646.ppd"
+    }
+]
