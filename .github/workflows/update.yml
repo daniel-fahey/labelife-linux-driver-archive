@@ -33,6 +33,21 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      # Save Page Now 2 Public API Docs Draft
+      # https://docs.google.com/document/d/1Nsv52MvSjbLb2PCpHlat0gkzw0EvtSgpKHu4mk0MnrA/
+      - name: Save to Wayback Machine
+        if: steps.check.outputs.changed == 'true'
+        shell: nix develop --command bash {0}
+        env:
+          IA_ACCESS_KEY_ID: ${{ secrets.IA_ACCESS_KEY_ID }}
+          IA_SECRET_ACCESS_KEY: ${{ secrets.IA_SECRET_ACCESS_KEY }}
+        run: |
+          curl --fail --silent --show-error \
+            --request POST \
+            --header "Accept: application/json" \
+            --header "Authorization: LOW ${IA_ACCESS_KEY_ID}:${IA_SECRET_ACCESS_KEY}" \
+            --data "url=${DRIVER_URL}&force_get=1&if_not_archived_within=24h&js_behavior_timeout=0&skip_first_archive=1" \
+            https://web.archive.org/save
       - name: Download and extract
         id: download
         if: steps.check.outputs.changed == 'true'
