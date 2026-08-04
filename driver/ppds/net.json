@@ -38,10 +38,10 @@
         "model": "QR380A-249-WF",
         "name": "PM-249-WF(WIFI)",
         "ppd": "PM-249-WIFI.ppd"
-    }
+    },
     {
         "model": "PM64Air",
         "name": "PM64Air(WIFI)",
         "ppd": "PM64Air.ppd"
-    },
+    }
 ]

@@ -314,5 +314,10 @@
         "name": "LW650XL PRO",
         "ppd": "LW650XL PRO.ppd"
     },
+    {
+        "model": "D422S",
+        "name": "D422S",
+        "ppd": "D422S.ppd"
+    }
 
 ]

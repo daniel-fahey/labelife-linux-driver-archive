@@ -4,16 +4,16 @@
 *%
 *%
 *FormatVersion: "4.3"
-*FileVersion:"2.2.0"
+*FileVersion:"2.3.2"
 *LanguageVersion: English
 *LanguageEncoding: ISOLatin1
-*PCFileName: "6XL Pro.ppd"
+*PCFileName: "D422S.ppd"
 *Manufacturer: ""
-*cupsModelNumber: 105
-*Product: "(6XL Prp)"
-*ModelName: "6XL Pro"
-*ShortNickName: "6XL Pro"
-*NickName: "6XL Pro"
+*cupsModelNumber: 21
+*Product: "(D422S)"
+*ModelName: "D450"
+*ShortNickName: "D422S"
+*NickName: "D422S"
 *PSVersion: "(3010.000) 550"
 *PSVersion: "(3010.000) 651"
 *PSVersion: "(3010.000) 652"
@@ -36,162 +36,235 @@
 
 *OpenUI *PageSize/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageSize
-*DefaultPageSize: A30252
-*PageSize A30252/30252 Address: "<</PageSize[72 250]/ImagingBBox null>>setpagedevice"
-*PageSize A30320/30320 Address: "<</PageSize[74 250]/ImagingBBox null>>setpagedevice"
-*PageSize A99010/99010 Standard Address: "<</PageSize[70 252]/ImagingBBox null>>setpagedevice"
-*PageSize A99014S/99014 Shipping: "<</PageSize[143 286]/ImagingBBox null>>setpagedevice"
-*PageSize A99014N/99014 Name Badge Label: "<</PageSize[143 286]/ImagingBBox null>>setpagedevice"
-*PageSize A30323/30323 Shipping: "<</PageSize[143 284]/ImagingBBox null>>setpagedevice"
-*PageSize A30258/30258 Diskette: "<</PageSize[143 197]/ImagingBBox null>>setpagedevice"
-*PageSize A99015/99015 Diskette: "<</PageSize[147 198]/ImagingBBox null>>setpagedevice"
-*PageSize A30324/30324 Diskette: "<</PageSize[147 197]/ImagingBBox null>>setpagedevice"
-*PageSize A30330/30330 Return Address: "<</PageSize[70.87 143.15]/ImagingBBox null>>setpagedevice"
-*PageSize A30277/30277 File Folder (2 up): "<</PageSize[70 246]/ImagingBBox null>>setpagedevice"
-*PageSize A30327/30327 File Folder: "<</PageSize[70.87 246.61]/ImagingBBox null>>setpagedevice"
-*PageSize A30370/30370 Zip Disk: "<</PageSize[136 168]/ImagingBBox null>>setpagedevice"
-*PageSize A30321/30321 Large Address: "<</PageSize[94.96 250.3]/ImagingBBox null>>setpagedevice"
-*PageSize A99012/99012 Large Address: "<</PageSize[92 250]/ImagingBBox null>>setpagedevice"
-*PageSize A30374/30374 Appointment Card: "<</PageSize[126 243]/ImagingBBox null>>setpagedevice"
-*PageSize A30325/30325 Video Spine: "<</PageSize[68.03 422.36]/ImagingBBox null>>setpagedevice"
-*PageSize A99016S/99016 Video Spine: "<</PageSize[70.87 413.86]/ImagingBBox null>>setpagedevice"
-*PageSize A30326/30326 Video Top: "<</PageSize[123 219]/ImagingBBox null>>setpagedevice"
-*PageSize A99016V/99016 Video Top: "<</PageSize[129 220]/ImagingBBox null>>setpagedevice"
-*PageSize A99017/99017 Suspension File: "<</PageSize[32 144]/ImagingBBox null>>setpagedevice"
-*PageSize A99018/99018 Small Lever Arch: "<</PageSize[98 538]/ImagingBBox null>>setpagedevice"
-*PageSize A30339/30339 8mm Video (2 up): "<</PageSize[47 201]/ImagingBBox null>>setpagedevice"
-*PageSize A30333/30333 1/2 in x 1 in (2 up): "<</PageSize[61 70]/ImagingBBox null>>setpagedevice"
-*PageSize A30332/30332 1 in x 1 in: "<</PageSize[76.54 70.87]/ImagingBBox null>>setpagedevice"
-*PageSize A30336/30336 1 in x 2-1/8 in: "<</PageSize[65.2 153.07]/ImagingBBox null>>setpagedevice"
-*PageSize A30373/30373 Price Tag Label: "<</PageSize[70 164]/ImagingBBox null>>setpagedevice"
-*PageSize A30346/30346 1/2 in x 1-7/8 in: "<</PageSize[27 134]/ImagingBBox null>>setpagedevice"
-*PageSize A30347/30347 1 in x 1-1/2 in: "<</PageSize[62.36 107.72]/ImagingBBox null>>setpagedevice"
-*PageSize A11352/11352 Return Address Int: "<</PageSize[60 153]/ImagingBBox null>>setpagedevice"
-*PageSize A11353/11353 Multi-Purpose: "<</PageSize[64 71]/ImagingBBox null>>setpagedevice"
-*PageSize A11355/11355 Multi-Purpose: "<</PageSize[44 144]/ImagingBBox null>>setpagedevice"
-*PageSize A11356/11356 White Name badge: "<</PageSize[107 252]/ImagingBBox null>>setpagedevice"
+*DefaultPageSize: w288h432
+*PageSize w90h18/1.25x0.25": "<</PageSize[90 18]/ImagingBBox null>>setpagedevice"
+*PageSize w90h162/1.25x2.25": "<</PageSize[90 162]/ImagingBBox null>>setpagedevice"
+*PageSize w108h18/1.50x0.25": "<</PageSize[108 18]/ImagingBBox null>>setpagedevice"
+*PageSize w108h36/1.50x0.50": "<</PageSize[108 36]/ImagingBBox null>>setpagedevice"
+*PageSize w108h72/1.50x1.00": "<</PageSize[108 72]/ImagingBBox null>>setpagedevice"
+*PageSize w108h144/1.50x2.00": "<</PageSize[108 144]/ImagingBBox null>>setpagedevice"
+*PageSize w144h26/2.00x0.37": "<</PageSize[144 26]/ImagingBBox null>>setpagedevice"
+*PageSize w144h36/2.00x0.50": "<</PageSize[144 36]/ImagingBBox null>>setpagedevice"
+*PageSize w144h72/2.00x1.00": "<</PageSize[144 72]/ImagingBBox null>>setpagedevice"
+*PageSize w144h90/2.00x1.25": "<</PageSize[144 90]/ImagingBBox null>>setpagedevice"
+*PageSize w144h144/2.00x2.00": "<</PageSize[144 144]/ImagingBBox null>>setpagedevice"
+*PageSize w144h288/2.00x4.00": "<</PageSize[144 288]/ImagingBBox null>>setpagedevice"
+*PageSize w144h396/2.00x5.50": "<</PageSize[144 396]/ImagingBBox null>>setpagedevice"
+*PageSize w162h36/2.25x0.50": "<</PageSize[162 36]/ImagingBBox null>>setpagedevice"
+*PageSize w162h90/2.25x1.25": "<</PageSize[162 90]/ImagingBBox null>>setpagedevice"
+*PageSize w162h288/2.25x4.00": "<</PageSize[162 288]/ImagingBBox null>>setpagedevice"
+*PageSize w162h396/2.25x5.50": "<</PageSize[162 396]/ImagingBBox null>>setpagedevice"
+*PageSize w171h396/2.38x5.50": "<</PageSize[171 396]/ImagingBBox null>>setpagedevice"
+*PageSize w180h72/2.50x1.00": "<</PageSize[180 72]/ImagingBBox null>>setpagedevice"
+*PageSize w180h144/2.50x2.00": "<</PageSize[180 144]/ImagingBBox null>>setpagedevice"
+*PageSize w198h90/2.75x1.25": "<</PageSize[198 90]/ImagingBBox null>>setpagedevice"
+*PageSize w216h72/3.00x1.00": "<</PageSize[216 72]/ImagingBBox null>>setpagedevice"
+*PageSize w216h90/3.00x1.25": "<</PageSize[216 90]/ImagingBBox null>>setpagedevice"
+*PageSize w216h144/3.00x2.00": "<</PageSize[216 144]/ImagingBBox null>>setpagedevice"
+*PageSize w216h216/3.00x3.00": "<</PageSize[216 216]/ImagingBBox null>>setpagedevice"
+*PageSize w216h360/3.00x5.00": "<</PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageSize w234h144/3.25x2.00": "<</PageSize[234 144]/ImagingBBox null>>setpagedevice"
+*PageSize w234h360/3.25x5.00": "<</PageSize[234 360]/ImagingBBox null>>setpagedevice"
+*PageSize w234h396/3.25x5.50": "<</PageSize[234 396]/ImagingBBox null>>setpagedevice"
+*PageSize w234h419/3.25x5.83": "<</PageSize[234 419]/ImagingBBox null>>setpagedevice"
+*PageSize w234h531/3.25x7.38": "<</PageSize[234 531]/ImagingBBox null>>setpagedevice"
+*PageSize w252h72/3.50x1.00": "<</PageSize[252 72]/ImagingBBox null>>setpagedevice"
+*PageSize w288h72/4.00x1.00": "<</PageSize[288 72]/ImagingBBox null>>setpagedevice"
+*PageSize w288h144/4.00x2.00": "<</PageSize[288 144]/ImagingBBox null>>setpagedevice"
+*PageSize w288h180/4.00x2.50": "<</PageSize[288 180]/ImagingBBox null>>setpagedevice"
+*PageSize w288h216/4.00x3.00": "<</PageSize[288 216]/ImagingBBox null>>setpagedevice"
+*PageSize w288h288/4.00x4.00": "<</PageSize[288 288]/ImagingBBox null>>setpagedevice"
+*PageSize w288h360/4.00x5.00": "<</PageSize[288 360]/ImagingBBox null>>setpagedevice"
+*PageSize w288h432/4.00x6.00": "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize w288h468/4.00x6.50": "<</PageSize[288 468]/ImagingBBox null>>setpagedevice"
+*PageSize w288h576/4.00x8.00": "<</PageSize[288 576]/ImagingBBox null>>setpagedevice"
+
+*PageSize LW1744907/1744907 4"x6" (104mmx159mm): "<</PageSize[294 450]/ImagingBBox null>>setpagedevice"
+*PageSize LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "<</PageSize[79 252]/ImagingBBox null>>setpagedevice"
+*PageSize LW30336/30336 1"x2 1/8" (25mmx54mm): "<</PageSize[70 153]/ImagingBBox null>>setpagedevice"
+*PageSize LW30256/30256 2 5/16"x4" (59mmx102mm): "<</PageSize[167 289]/ImagingBBox null>>setpagedevice"
+*PageSize LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "<</PageSize[161 90]/ImagingBBox null>>setpagedevice"
+*PageSize DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "<</PageSize[82 255]/ImagingBBox null>>setpagedevice"
+*PageSize DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "<</PageSize[175 283]/ImagingBBox null>>setpagedevice"
+*PageSize DK1241/DK-(1)1241 4"x6" (102mmx152mm): "<</PageSize[289 430]/ImagingBBox null>>setpagedevice"
+
+*PageSize wfw100h100/100x100mm(WF): "<</PageSize[284 290]/ImagingBBox null>>setpagedevice"
 
 *CloseUI: *PageSize
 
 *OpenUI *PageRegion/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion: A30252
-*PageRegion A30252/30252 Address: "<</PageSize[72 250]/ImagingBBox null>>setpagedevice"
-*PageRegion A30320/30320 Address: "<</PageSize[74 250]/ImagingBBox null>>setpagedevice"
-*PageRegion A99010/99010 Standard Address: "<</PageSize[70 252]/ImagingBBox null>>setpagedevice"
-*PageRegion A99014S/99014 Shipping: "<</PageSize[143 286]/ImagingBBox null>>setpagedevice"
-*PageRegion A99014N/99014 Name Badge Label: "<</PageSize[143 286]/ImagingBBox null>>setpagedevice"
-*PageRegion A30323/30323 Shipping: "<</PageSize[143 284]/ImagingBBox null>>setpagedevice"
-*PageRegion A30258/30258 Diskette: "<</PageSize[143 197]/ImagingBBox null>>setpagedevice"
-*PageRegion A99015/99015 Diskette: "<</PageSize[147 198]/ImagingBBox null>>setpagedevice"
-*PageRegion A30324/30324 Diskette: "<</PageSize[147 197]/ImagingBBox null>>setpagedevice"
-*PageRegion A30330/30330 Return Address: "<</PageSize[70.87 143.15]/ImagingBBox null>>setpagedevice"
-*PageRegion A30277/30277 File Folder (2 up): "<</PageSize[70 246]/ImagingBBox null>>setpagedevice"
-*PageRegion A30327/30327 File Folder: "<</PageSize[70.87 246.61]/ImagingBBox null>>setpagedevice"
-*PageRegion A30370/30370 Zip Disk: "<</PageSize[136 168]/ImagingBBox null>>setpagedevice"
-*PageRegion A30321/30321 Large Address: "<</PageSize[94.96 250.3]/ImagingBBox null>>setpagedevice"
-*PageRegion A99012/99012 Large Address: "<</PageSize[92 250]/ImagingBBox null>>setpagedevice"
-*PageRegion A30374/30374 Appointment Card: "<</PageSize[126 243]/ImagingBBox null>>setpagedevice"
-*PageRegion A30325/30325 Video Spine: "<</PageSize[68.03 422.61]/ImagingBBox null>>setpagedevice"
-*PageRegion A99016S/99016 Video Spine: "<</PageSize[70.87 413.86]/ImagingBBox null>>setpagedevice"
-*PageRegion A30326/30326 Video Top: "<</PageSize[123 219]/ImagingBBox null>>setpagedevice"
-*PageRegion A99016V/99016 Video Top: "<</PageSize[129 220]/ImagingBBox null>>setpagedevice"
-*PageRegion A99017/99017 Suspension File: "<</PageSize[32 144]/ImagingBBox null>>setpagedevice"
-*PageRegion A99018/99018 Small Lever Arch: "<</PageSize[98 538]/ImagingBBox null>>setpagedevice"
-*PageRegion A30339/30339 8mm Video (2 up): "<</PageSize[47 201]/ImagingBBox null>>setpagedevice"
-*PageRegion A30333/30333 1/2 in x 1 in (2 up): "<</PageSize[61 70]/ImagingBBox null>>setpagedevice"
-*PageRegion A30332/30332 1 in x 1 in: "<</PageSize[76.54 70.87]/ImagingBBox null>>setpagedevice"
-*PageRegion A30336/30336 1 in x 2-1/8 in: "<</PageSize[65.2 153.07]/ImagingBBox null>>setpagedevice"
-*PageRegion A30373/30373 Price Tag Label: "<</PageSize[70 164]/ImagingBBox null>>setpagedevice"
-*PageRegion A30346/30346 1/2 in x 1-7/8 in: "<</PageSize[27 134]/ImagingBBox null>>setpagedevice"
-*PageRegion A30347/30347 1 in x 1-1/2 in: "<</PageSize[62.36 107.72]/ImagingBBox null>>setpagedevice"
-*PageRegion A11352/11352 Return Address Int: "<</PageSize[60 153]/ImagingBBox null>>setpagedevice"
-*PageRegion A11353/11353 Multi-Purpose: "<</PageSize[64 71]/ImagingBBox null>>setpagedevice"
-*PageRegion A11355/11355 Multi-Purpose: "<</PageSize[44 144]/ImagingBBox null>>setpagedevice"
-*PageRegion A11356/11356 White Name badge: "<</PageSize[107 252]/ImagingBBox null>>setpagedevice"
+*DefaultPageRegion: w288h432
+*PageRegion w90h18/1.25x0.25": "<</PageSize[90 18]/ImagingBBox null>>setpagedevice"
+*PageRegion w90h162/1.25x2.25": "<</PageSize[90 162]/ImagingBBox null>>setpagedevice"
+*PageRegion w108h18/1.50x0.25": "<</PageSize[108 18]/ImagingBBox null>>setpagedevice"
+*PageRegion w108h36/1.50x0.50": "<</PageSize[108 36]/ImagingBBox null>>setpagedevice"
+*PageRegion w108h72/1.50x1.00": "<</PageSize[108 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w108h144/1.50x2.00": "<</PageSize[108 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h26/2.00x0.37": "<</PageSize[144 26]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h36/2.00x0.50": "<</PageSize[144 36]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h72/2.00x1.00": "<</PageSize[144 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h90/2.00x1.25": "<</PageSize[144 90]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h144/2.00x2.00": "<</PageSize[144 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h288/2.00x4.00": "<</PageSize[144 288]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h396/2.00x5.50": "<</PageSize[144 396]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h36/2.25x0.50": "<</PageSize[162 36]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h90/2.25x1.25": "<</PageSize[162 90]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h288/2.25x4.00": "<</PageSize[162 288]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h396/2.25x5.50": "<</PageSize[162 396]/ImagingBBox null>>setpagedevice"
+*PageRegion w171h396/2.38x5.50": "<</PageSize[171 396]/ImagingBBox null>>setpagedevice"
+*PageRegion w180h72/2.50x1.00": "<</PageSize[180 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w180h144/2.50x2.00": "<</PageSize[180 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w198h90/2.75x1.25": "<</PageSize[198 90]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h72/3.00x1.00": "<</PageSize[216 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h90/3.00x1.25": "<</PageSize[216 90]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h144/3.00x2.00": "<</PageSize[216 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h216/3.00x3.00": "<</PageSize[216 216]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h360/3.00x5.00": "<</PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageRegion w234h144/3.25x2.00": "<</PageSize[234 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w234h360/3.25x5.00": "<</PageSize[234 360]/ImagingBBox null>>setpagedevice"
+*PageRegion w234h396/3.25x5.50": "<</PageSize[234 396]/ImagingBBox null>>setpagedevice"
+*PageRegion w234h419/3.25x5.83": "<</PageSize[234 419]/ImagingBBox null>>setpagedevice"
+*PageRegion w234h531/3.25x7.38": "<</PageSize[234 531]/ImagingBBox null>>setpagedevice"
+*PageRegion w252h72/3.50x1.00": "<</PageSize[252 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h72/4.00x1.00": "<</PageSize[288 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h144/4.00x2.00": "<</PageSize[288 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h180/4.00x2.50": "<</PageSize[288 180]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h216/4.00x3.00": "<</PageSize[288 216]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h288/4.00x4.00": "<</PageSize[288 288]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h360/4.00x5.00": "<</PageSize[288 360]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h432/4.00x6.00": "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h468/4.00x6.50": "<</PageSize[288 468]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h576/4.00x8.00": "<</PageSize[288 576]/ImagingBBox null>>setpagedevice"
 
+*PageRegion LW1744907/1744907 4"x6" (104mmx159mm): "<</PageSize[294 450]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "<</PageSize[79 252]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30336/30336 1"x2 1/8" (25mmx54mm): "<</PageSize[70 153]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30256/30256 2 5/16"x4" (59mmx102mm): "<</PageSize[167 289]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "<</PageSize[161 90]/ImagingBBox null>>setpagedevice"
+*PageRegion DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "<</PageSize[82 255]/ImagingBBox null>>setpagedevice"
+*PageRegion DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "<</PageSize[175 283]/ImagingBBox null>>setpagedevice"
+*PageRegion DK1241/DK-(1)1241 4"x6" (102mmx152mm): "<</PageSize[289 430]/ImagingBBox null>>setpagedevice"
+
+*PageRegion wfw100h100/100x100mm(WF): "<</PageSize[284 290]/ImagingBBox null>>setpagedevice"
 
 *CloseUI: *PageRegion
 
-*DefaultImageableArea: A30252
-*ImageableArea A30252/30252 Address: "0 0 72 250"
-*ImageableArea A30320/30320 Address: "0 0 74 250"
-*ImageableArea A99010/99010 Standard Address: "0 0 70 252"
-*ImageableArea A99014S/99014 Shipping: "0 0 143 286"
-*ImageableArea A99014N/99014 Name Badge Label: "0 0 143 286"
-*ImageableArea A30323/30323 Shipping: "0 0 143 284"
-*ImageableArea A30258/30258 Diskette: "0 0 143 197"
-*ImageableArea A99015/99015 Diskette: "0 0 147 198"
-*ImageableArea A30324/30324 Diskette: "0 0 147 197"
-*ImageableArea A30330/30330 Return Address: "0 0 70.87 143.15"
-*ImageableArea A30277/30277 File Folder (2 up): "0 0 70 246"
-*ImageableArea A30327/30327 File Folder: "0 0 70.87 246.61"
-*ImageableArea A30370/30370 Zip Disk: "0 0 136 168"
-*ImageableArea A30321/30321 Large Address: "0 0 94.96 250.3"
-*ImageableArea A99012/99012 Large Address: "0 0 92 250"
-*ImageableArea A30374/30374 Appointment Card: "0 0 126 243"
-*ImageableArea A30325/30325 Video Spine: "0 0 68.03 422.36"
-*ImageableArea A99016S/99016 Video Spine: "0 0 70.87 413.86"
-*ImageableArea A30326/30326 Video Top: "0 0 123 219"
-*ImageableArea A99016V/99016 Video Top: "0 0 129 220"
-*ImageableArea A99017/99017 Suspension File: "0 0 32 144"
-*ImageableArea A99018/99018 Small Lever Arch: "0 0 98 538"
-*ImageableArea A30339/30339 8mm Video (2 up): "0 0 47 201"
-*ImageableArea A30333/30333 1/2 in x 1 in (2 up): "0 0 61 70"
-*ImageableArea A30332/30332 1 in x 1 in: "0 0 76.54 70.87"
-*ImageableArea A30336/30336 1 in x 2-1/8 in: "0 0 65.2 153.07"
-*ImageableArea A30373/30373 Price Tag Label: "0 0 70 164"
-*ImageableArea A30346/30346 1/2 in x 1-7/8 in: "0 0 27 134"
-*ImageableArea A30347/30347 1 in x 1-1/2 in: "0 0 62.36 107.72"
-*ImageableArea A11352/11352 Return Address Int: "0 0 60 153"
-*ImageableArea A11353/11353 Multi-Purpose: "0 0 64 71"
-*ImageableArea A11355/11355 Multi-Purpose: "0 0 44 144"
-*ImageableArea A11356/11356 White Name badge: "0 0 107 252"
+*DefaultImageableArea: w288h432
+*ImageableArea w90h18/1.25x0.25": "0 0 90 18"
+*ImageableArea w90h162/1.25x2.25": "0 0 90 162"
+*ImageableArea w108h18/1.50x0.25": "0 0 108 18"
+*ImageableArea w108h36/1.50x0.50": "0 0 108 36"
+*ImageableArea w108h72/1.50x1.00": "0 0 108 72"
+*ImageableArea w108h144/1.50x2.00": "0 0 108 144"
+*ImageableArea w144h26/2.00x0.37": "0 0 144 26"
+*ImageableArea w144h36/2.00x0.50": "0 0 144 36"
+*ImageableArea w144h72/2.00x1.00": "0 0 144 72"
+*ImageableArea w144h90/2.00x1.25": "0 0 144 90"
+*ImageableArea w144h144/2.00x2.00": "0 0 144 144"
+*ImageableArea w144h288/2.00x4.00": "0 0 144 288"
+*ImageableArea w144h396/2.00x5.50": "0 0 144 396"
+*ImageableArea w162h36/2.25x0.50": "0 0 162 36"
+*ImageableArea w162h90/2.25x1.25": "0 0 162 90"
+*ImageableArea w162h288/2.25x4.00": "0 0 162 288"
+*ImageableArea w162h396/2.25x5.50": "0 0 162 396"
+*ImageableArea w171h396/2.38x5.50": "0 0 171 396"
+*ImageableArea w180h72/2.50x1.00": "0 0 180 72"
+*ImageableArea w180h144/2.50x2.00": "0 0 180 144"
+*ImageableArea w198h90/2.75x1.25": "0 0 198 90"
+*ImageableArea w216h72/3.00x1.00": "0 0 216 72"
+*ImageableArea w216h90/3.00x1.25": "0 0 216 90"
+*ImageableArea w216h144/3.00x2.00": "0 0 216 144"
+*ImageableArea w216h216/3.00x3.00": "0 0 216 216"
+*ImageableArea w216h360/3.00x5.00": "0 0 216 360"
+*ImageableArea w234h144/3.25x2.00": "0 0 234 144"
+*ImageableArea w234h360/3.25x5.00": "0 0 234 360"
+*ImageableArea w234h396/3.25x5.50": "0 0 234 396"
+*ImageableArea w234h419/3.25x5.83": "0 0 234 419"
+*ImageableArea w234h531/3.25x7.38": "0 0 234 531"
+*ImageableArea w252h72/3.50x1.00": "0 0 252 72"
+*ImageableArea w288h72/4.00x1.00": "0 0 288 72"
+*ImageableArea w288h144/4.00x2.00": "0 0 288 144"
+*ImageableArea w288h180/4.00x2.50": "0 0 288 180"
+*ImageableArea w288h216/4.00x3.00": "0 0 288 216"
+*ImageableArea w288h288/4.00x4.00": "0 0 288 288"
+*ImageableArea w288h360/4.00x5.00": "0 0 288 360"
+*ImageableArea w288h432/4.00x6.00": "0 0 288 432"
+*ImageableArea w288h468/4.00x6.50": "0 0 288 468"
+*ImageableArea w288h576/4.00x8.00": "0 0 288 576"
+
+*ImageableArea LW1744907/1744907 4"x6" (104mmx159mm): "0 0 294 450"
+*ImageableArea LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "0 0 79 252"
+*ImageableArea LW30336/30336 1"x2 1/8" (25mmx54mm): "0 0 70 153"
+*ImageableArea LW30256/30256 2 5/16"x4" (59mmx102mm): "0 0 167 289"
+*ImageableArea LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "0 0 161 90"
+*ImageableArea DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "0 0 82 255"
+*ImageableArea DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "0 0 175 283"
+*ImageableArea DK1241/DK-(1)1241 4"x6" (102mmx152mm): "0 0 289 430"
+
+*ImageableArea wfw100h100/100x100mm(WF): "0 0 284 290"
 
 
+*DefaultPaperDimension: w288h432
+*PaperDimension w90h18/1.25x0.25": "90 18"
+*PaperDimension w90h162/1.25x2.25": "90 162"
+*PaperDimension w108h18/1.50x0.25": "108 18"
+*PaperDimension w108h36/1.50x0.50": "108 36"
+*PaperDimension w108h72/1.50x1.00": "108 72"
+*PaperDimension w108h144/1.50x2.00": "108 144"
+*PaperDimension w144h26/2.00x0.37": "144 26"
+*PaperDimension w144h36/2.00x0.50": "144 36"
+*PaperDimension w144h72/2.00x1.00": "144 72"
+*PaperDimension w144h90/2.00x1.25": "144 90"
+*PaperDimension w144h144/2.00x2.00": "144 144"
+*PaperDimension w144h288/2.00x4.00": "144 288"
+*PaperDimension w144h396/2.00x5.50": "144 396"
+*PaperDimension w162h36/2.25x0.50": "162 36"
+*PaperDimension w162h90/2.25x1.25": "162 90"
+*PaperDimension w162h288/2.25x4.00": "162 288"
+*PaperDimension w162h396/2.25x5.50": "162 396"
+*PaperDimension w171h396/2.38x5.50": "171 396"
+*PaperDimension w180h72/2.50x1.00": "180 72"
+*PaperDimension w180h144/2.50x2.00": "180 144"
+*PaperDimension w198h90/2.75x1.25": "198 90"
+*PaperDimension w216h72/3.00x1.00": "216 72"
+*PaperDimension w216h90/3.00x1.25": "216 90"
+*PaperDimension w216h144/3.00x2.00": "216 144"
+*PaperDimension w216h216/3.00x3.00": "216 216"
+*PaperDimension w216h360/3.00x5.00": "216 360"
+*PaperDimension w234h144/3.25x2.00": "234 144"
+*PaperDimension w234h360/3.25x5.00": "234 360"
+*PaperDimension w234h396/3.25x5.50": "234 396"
+*PaperDimension w234h419/3.25x5.83": "234 419"
+*PaperDimension w234h531/3.25x7.38": "234 531"
+*PaperDimension w252h72/3.50x1.00": "252 72"
+*PaperDimension w288h72/4.00x1.00": "288 72"
+*PaperDimension w288h144/4.00x2.00": "288 144"
+*PaperDimension w288h180/4.00x2.50": "288 180"
+*PaperDimension w288h216/4.00x3.00": "288 216"
+*PaperDimension w288h288/4.00x4.00": "288 288"
+*PaperDimension w288h360/4.00x5.00": "288 360"
+*PaperDimension w288h432/4.00x6.00": "288 432"
+*PaperDimension w288h468/4.00x6.50": "288 468"
+*PaperDimension w288h576/4.00x8.00": "288 576"
 
-*DefaultPaperDimension: A30252
-*PaperDimension A30252/30252 Address: "72 250"
-*PaperDimension A30320/30320 Address: "74 250"
-*PaperDimension A99010/99010 Standard Address: "70 252"
-*PaperDimension A99014S/99014 Shipping: "143 286"
-*PaperDimension A99014N/99014 Name Badge Label: "143 286"
-*PaperDimension A30323/30323 Shipping: "143 284"
-*PaperDimension A30258/30258 Diskette: "143 197"
-*PaperDimension A99015/99015 Diskette: "147 198"
-*PaperDimension A30324/30324 Diskette: "147 197"
-*PaperDimension A30330/30330 Return Address: "70.87 143.15"
-*PaperDimension A30277/30277 File Folder (2 up): "70 246"
-*PaperDimension A30327/30327 File Folder: "70.87 246.61"
-*PaperDimension A30370/30370 Zip Disk: "136 168"
-*PaperDimension A30321/30321 Large Address: "94.96 250.3"
-*PaperDimension A99012/99012 Large Address: "92 250"
-*PaperDimension A30374/30374 Appointment Card: "126 243"
-*PaperDimension A30325/30325 Video Spine: "68.03 422.36"
-*PaperDimension A99016S/99016 Video Spine: "70.87 413.86"
-*PaperDimension A30326/30326 Video Top: "123 219"
-*PaperDimension A99016V/99016 Video Top: "129 220"
-*PaperDimension A99017/99017 Suspension File: "32 144"
-*PaperDimension A99018/99018 Small Lever Arch: "98 538"
-*PaperDimension A30339/30339 8mm Video (2 up): "47 201"
-*PaperDimension A30333/30333 1/2 in x 1 in (2 up): "61 70"
-*PaperDimension A30332/30332 1 in x 1 in: "76.54 70.87"
-*PaperDimension A30336/30336 1 in x 2-1/8 in: "65.2 153.07"
-*PaperDimension A30373/30373 Price Tag Label: "70 164"
-*PaperDimension A30346/30346 1/2 in x 1-7/8 in: "27 134"
-*PaperDimension A30347/30347 1 in x 1-1/2 in: "62.36 107.72"
-*PaperDimension A11352/11352 Return Address Int: "60 153"
-*PaperDimension A11353/11353 Multi-Purpose: "64 71"
-*PaperDimension A11355/11355 Multi-Purpose: "44 144"
-*PaperDimension A11356/11356 White Name badge: "107 252"
+*PaperDimension LW1744907/1744907 4"x6" (104mmx159mm): "294 450"
+*PaperDimension LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "79 252"
+*PaperDimension LW30336/30336 1"x2 1/8" (25mmx54mm): "70 153"
+*PaperDimension LW30256/30256 2 5/16"x4" (59mmx102mm): "167 289"
+*PaperDimension LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "161 90"
+*PaperDimension DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "82 255"
+*PaperDimension DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "175 283"
+*PaperDimension DK1241/DK-(1)1241 4"x6" (102mmx152mm): "289 430"
 
+*PaperDimension wfw100h100/100x100mm(WF): "284 290"
 
-*MaxMediaWidth: "341"
-*MaxMediaHeight: "852"
+*MaxMediaWidth: "307"
+*MaxMediaHeight: "1080"
 *HWMargins: 0 0 0 0
 *CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
-*ParamCustomPageSize Width: 1 points 28 341
-*ParamCustomPageSize Height: 2 points 14 652
+*ParamCustomPageSize Width: 1 points 10 307
+*ParamCustomPageSize Height: 2 points 10 1080
 *ParamCustomPageSize WidthOffset: 3 points 0 0
 *ParamCustomPageSize HeightOffset: 4 points 0 0
 *ParamCustomPageSize Orientation: 5 int 0 0
@@ -199,17 +272,76 @@
 
 *OpenUI *Resolution/Resolution: PickOne
 *OrderDependency: 10 AnySetup *Resolution
-*DefaultResolution: 300x300dpi
-*Resolution 300x300dpi/300 dpi x 300 dpi: "<</HWResolution[300 300]/cupsBitsPerColor 8/cupsRowCount 8/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 0>>setpagedevice"
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 dpi x 203 dpi: "<</HWResolution[203 203]/cupsBitsPerColor 8/cupsRowCount 8/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 0>>setpagedevice"
 *CloseUI: *Resolution
 
 
 *OpenGroup: PrinterSettings/Printer Settings
 
+*OpenUI *zeMediaTracking/Media Tracking: PickOne
+*OrderDependency: 20 AnySetup *zeMediaTracking
+*DefaultzeMediaTracking: Gap
+*zeMediaTracking Continuous/Continuous: ""
+*zeMediaTracking Gap/Gap: ""
+*zeMediaTracking BLine/Black Line: ""
+*CloseUI: *zeMediaTracking
+
+*OpenUI *GapHeight/Gap or Mark Height: PickOne
+*OrderDependency: 20 AnySetup *GapHeight
+*DefaultGapHeight: 3
+*GapHeight 0/0mm: ""
+*GapHeight 1/1mm: ""
+*GapHeight 2/2mm: ""
+*GapHeight 3/3mm: ""
+*GapHeight 4/4mm: ""
+*GapHeight 5/5mm: ""
+*GapHeight 6/6mm: ""
+*GapHeight 7/7mm: ""
+*GapHeight 8/8mm: ""
+*GapHeight 9/9mm: ""
+
+
+
+
+
+
+
+
+
+
+
+*CloseUI: *GapHeight
+
+*OpenUI *GapOffset/Gap or Mark Offset: PickOne
+*OrderDependency: 20 AnySetup *GapOffset
+*DefaultGapOffset: 0
+*GapOffset 0/0mm: ""
+*GapOffset 1/1mm: ""
+*GapOffset 2/2mm: ""
+*GapOffset 3/3mm: ""
+*GapOffset 4/4mm: ""
+*GapOffset 5/5mm: ""
+*GapOffset 6/6mm: ""
+*GapOffset 7/7mm: ""
+*GapOffset 8/8mm: ""
+*GapOffset 9/9mm: ""
+
+
+
+
+
+
+
+
+
+
+
+*CloseUI: *GapOffset
+
 *OpenUI *Darkness/Darkness: PickOne
 *OrderDependency: 20 AnySetup *Darkness
-*DefaultDarkness: Default
-*Darkness Default/Printer Default: ""
+*DefaultDarkness: 6
 *Darkness 0: "%%"
 *Darkness 1: "%%"
 *Darkness 2: "%%"
@@ -232,12 +364,10 @@
 *OrderDependency: 20 AnySetup *zePrintRate
 *DefaultzePrintRate: 4
 *zePrintRate Default/Printer Default: ""
-*zePrintRate 1/1: ""
 *zePrintRate 2/2: ""
 *zePrintRate 3/3: ""
 *zePrintRate 4/4: ""
 *zePrintRate 5/5: ""
-*zePrintRate 6/6: ""
 *CloseUI: *zePrintRate
 
 *OpenUI *ColorOption/ColorOption: PickOne
@@ -271,70 +401,10 @@
 *DegreeOfGrayRecognition 7/7: ""
 *CloseUI: *DegreeOfGrayRecognition
 
+
 *CloseGroup: PrinterSettings
 
 *OpenGroup: PageSet/Page Options
-
-*OpenUI *zeMediaTracking/Media Tracking: PickOne
-*OrderDependency: 20 AnySetup *zeMediaTracking
-*DefaultzeMediaTracking: Gap
-*zeMediaTracking Continuous/Continuous: ""
-*zeMediaTracking Gap/Gap: ""
-*zeMediaTracking BLine/Black Line: ""
-*CloseUI: *zeMediaTracking
-
-
-*OpenUI *GapHeight/Gap or Mark Height: PickOne
-*OrderDependency: 20 AnySetup *GapHeight
-*DefaultGapHeight: 3
-*GapHeight 0/0mm: ""
-*GapHeight 1/1mm: ""
-*GapHeight 2/2mm: ""
-*GapHeight 3/3mm: ""
-*GapHeight 4/4mm: ""
-*GapHeight 5/5mm: ""
-*GapHeight 6/6mm: ""
-*GapHeight 7/7mm: ""
-*GapHeight 8/8mm: ""
-*GapHeight 9/9mm: ""
-*GapHeight 10/10mm: ""
-*GapHeight 11/11mm: ""
-*GapHeight 12/12mm: ""
-*GapHeight 13/13mm: ""
-*GapHeight 14/14mm: ""
-*GapHeight 15/15mm: ""
-*GapHeight 16/16mm: ""
-*GapHeight 17/17mm: ""
-*GapHeight 18/18mm: ""
-*GapHeight 19/19mm: ""
-*GapHeight 20/20mm: ""
-*CloseUI: *GapHeight
-
-*OpenUI *GapOffset/Gap or Mark Offset: PickOne
-*OrderDependency: 20 AnySetup *GapOffset
-*DefaultGapOffset: 0
-*GapOffset 0/0mm: ""
-*GapOffset 1/1mm: ""
-*GapOffset 2/2mm: ""
-*GapOffset 3/3mm: ""
-*GapOffset 4/4mm: ""
-*GapOffset 5/5mm: ""
-*GapOffset 6/6mm: ""
-*GapOffset 7/7mm: ""
-*GapOffset 8/8mm: ""
-*GapOffset 9/9mm: ""
-*GapOffset 10/10mm: ""
-*GapOffset 11/11mm: ""
-*GapOffset 12/12mm: ""
-*GapOffset 13/13mm: ""
-*GapOffset 14/14mm: ""
-*GapOffset 15/15mm: ""
-*GapOffset 16/16mm: ""
-*GapOffset 17/17mm: ""
-*GapOffset 18/18mm: ""
-*GapOffset 19/19mm: ""
-*GapOffset 20/20mm: ""
-*CloseUI: *GapOffset
 
 *OpenUI *AdjustHoriaontal/Horizontal Offset:PickOne
 *OrderDependency: 130 AnySetup *AdjustHoriaontal
@@ -830,6 +900,66 @@
 *tr.Translation FeedOffset/Baskı Sonrası Kağıt İlerlemesi: ""
 *tr.Translation DegreeOfBlackRecognition/Siyah Tanınma Derecesi: ""
 *tr.Translation DegreeOfGrayRecognition/Gri Tanınma Derecesi: ""
+
+*th.Translation General/ทั่วไป: ""
+*th.Translation PageSet/ตัวเลือกหน้า: ""
+*th.Translation PrinterSettings/การตั้งค่าเครื่องพิมพ์: ""
+*th.Translation PageSize/ชื่อกระดาษ: ""
+*th.Translation Resolution/ปณิธาน: ""
+*th.Translation zeMediaTracking/ประเภทกระดาษ: ""
+*th.zeMediaTracking Continuous/กระดาษต่อเนื่อง: ""
+*th.zeMediaTracking Gap/กระดาษช่องว่าง: ""
+*th.zeMediaTracking BLine/กระดาษมาร์คสีดำ: ""
+*th.Translation GapHeight/ช่องว่างเส้นสีดำความสูง: ""
+*th.Translation GapOffset/ช่องว่างเส้นสีดำออฟเซ็ต: ""
+*th.Translation Darkness/ความหนาแน่นของการพิมพ์: ""
+*th.Darkness Default/ค่าเริ่มต้น: ""
+*th.Translation zePrintRate/ความเร็วในการพิมพ์: ""
+*th.zePrintRate Default/ค่าเริ่มต้น: ""
+*th.Translation ColorOption/ตัวเลือกสี: ""
+*th.ColorOption None/ไม่มี: ""
+*th.ColorOption GrayScale/ระดับสีเทา: ""
+*th.Translation AdjustHoriaontal/ปรับแนวนอน: ""
+*th.Translation AdjustMinorHoriaontal/ปรับแนวนอน +: ""
+*th.Translation AdjustVertical/ปรับแนวตั้ง: ""
+*th.Translation AdjustMinorVertical/ปรับแนวตั้ +: ""
+*th.Translation Rotate/การตั้งค่าการหมุน: ""
+*th.Translation FeedOffset/ป้อนกระดาษหลังการพิมพ์: ""
+*th.Translation RoundLabel/ป้ายกลม: ""
+*th.RoundLabel Yes/ใช่: ""
+*th.RoundLabel No/เลขที่: ""
+*th.Translation DegreeOfBlackRecognition/ระดับการจดจำสีดำ: ""
+*th.Translation DegreeOfGrayRecognition/ระดับการจดจำสีเทา: ""
+
+*ko.Translation General/일반적인: ""
+*ko.Translation PageSet/페이지 옵션: ""
+*ko.Translation PrinterSettings/프린터 설정: ""
+*ko.Translation PageSize/용지 이름: ""
+*ko.Translation Resolution/해결: ""
+*ko.Translation zeMediaTracking/용지 종류: ""
+*ko.zeMediaTracking Continuous/연속지: ""
+*ko.zeMediaTracking Gap/간극지: ""
+*ko.zeMediaTracking BLine/블랙 마크 용지: ""
+*ko.Translation GapHeight/간격 또는 블랙 마크 높이 값: ""
+*ko.Translation GapOffset/간격 또는 블랙 마크 오프셋 값: ""
+*ko.Translation Darkness/인쇄 농도: ""
+*ko.Darkness Default/기본: ""
+*ko.Translation zePrintRate/인쇄 속도: ""
+*ko.zePrintRate Default/기본: ""
+*ko.Translation ColorOption/색상 옵션: ""
+*ko.ColorOption None/없음: ""
+*ko.ColorOption GrayScale/그레이스케일: ""
+*ko.Translation AdjustHoriaontal/수평 조정: ""
+*ko.Translation AdjustMinorHoriaontal/수평 조정 +: ""
+*ko.Translation AdjustVertical/수직 조정: ""
+*ko.Translation AdjustMinorVertical/수직 조정 +: ""
+*ko.Translation Rotate/회전 설정: ""
+*ko.Translation FeedOffset/인쇄 후 용지 공급: ""
+*ko.Translation RoundLabel/원형 라벨: ""
+*ko.RoundLabel Yes/예: ""
+*ko.RoundLabel No/아니요: ""
+*ko.Translation DegreeOfBlackRecognition/검정 인식 정도: ""
+*ko.Translation DegreeOfGrayRecognition/회색 인식 정도: ""
 
 
 *DefaultFont: Courier
