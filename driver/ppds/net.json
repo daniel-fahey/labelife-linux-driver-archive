@@ -43,5 +43,10 @@
         "model": "PM64Air",
         "name": "PM64Air(WIFI)",
         "ppd": "PM64Air.ppd"
+    },
+    {
+        "model": "PM643",
+        "name": "PM643(WIFI)",
+        "ppd": "PM643.ppd"
     }
 ]

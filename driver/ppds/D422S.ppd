@@ -4,12 +4,12 @@
 *%
 *%
 *FormatVersion: "4.3"
-*FileVersion:"2.3.2"
+*FileVersion:"2.4.0"
 *LanguageVersion: English
 *LanguageEncoding: ISOLatin1
 *PCFileName: "D422S.ppd"
 *Manufacturer: ""
-*cupsModelNumber: 21
+*cupsModelNumber: 20
 *Product: "(D422S)"
 *ModelName: "D450"
 *ShortNickName: "D422S"
@@ -341,7 +341,8 @@
 
 *OpenUI *Darkness/Darkness: PickOne
 *OrderDependency: 20 AnySetup *Darkness
-*DefaultDarkness: 6
+*DefaultDarkness: Default
+*Darkness Default/Printer Default: ""
 *Darkness 0: "%%"
 *Darkness 1: "%%"
 *Darkness 2: "%%"

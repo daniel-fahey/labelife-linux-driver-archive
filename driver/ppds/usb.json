@@ -318,6 +318,61 @@
         "model": "D422S",
         "name": "D422S",
         "ppd": "D422S.ppd"
+    },
+    {
+        "model": "D421R",
+        "name": "D421R",
+        "ppd": "D421R.ppd"
+    },
+    {
+        "model": "PM-248-Pro",
+        "name": "PM-248-Pro",
+        "ppd": "PM-248-Pro.ppd"
+    },
+    {
+        "model": "A641M",
+        "name": "A641M",
+        "ppd": "A641M.ppd"
+    },
+    {
+        "model": "PM643",
+        "name": "PM643",
+        "ppd": "PM643.ppd"
+    },
+    {
+        "model": "PM-241H",
+        "name": "PM-241H",
+        "ppd": "PM-241H.ppd"
+    },
+    {
+        "model": "LM330d",
+        "name": "LM330d",
+        "ppd": "LM330d.ppd"
+    },
+    {
+        "model": "D520BTZ-GY",
+        "name": "D520BTZ-GY",
+        "ppd": "D520BTZ-GY.ppd"
+    },
+    {
+        "model": "D550 Pro",
+        "name": "D550 Pro",
+        "ppd": "D550 Pro.ppd"
+    },
+    {
+        "model": "M20 Pro",
+        "name": "M20 Pro",
+        "ppd": "M20 Pro.ppd"
+    },
+    {
+        "model": "D420BT",
+        "name": "D420BT",
+        "ppd": "D420BT.ppd"
+    },
+    {
+        "model": "PM-2415-BT",
+        "name": "PM-2415-BT",
+        "ppd": "PM-2415-BT.ppd"
     }
 
 ]

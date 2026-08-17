@@ -7,13 +7,13 @@
 *FileVersion:"2.4.0"
 *LanguageVersion: English
 *LanguageEncoding: ISOLatin1
-*PCFileName: "T310 Printer.ppd"
+*PCFileName: "LM330d.ppd"
 *Manufacturer: ""
-*cupsModelNumber: 22
-*Product: "(T310 Printer)"
-*ModelName: "T310"
-*ShortNickName: "T310 Printer"
-*NickName: "T310"
+*cupsModelNumber: 21
+*Product: "(LM330d)"
+*ModelName: "LM330d"
+*ShortNickName: "LM330d"
+*NickName: "LM330d"
 *PSVersion: "(3010.000) 550"
 *PSVersion: "(3010.000) 651"
 *PSVersion: "(3010.000) 652"
@@ -78,8 +78,15 @@
 *PageSize w288h432/4.00x6.00": "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
 *PageSize w288h468/4.00x6.50": "<</PageSize[288 468]/ImagingBBox null>>setpagedevice"
 *PageSize w288h576/4.00x8.00": "<</PageSize[288 576]/ImagingBBox null>>setpagedevice"
-*PageSize w288h792/4.00x11.00": "<</PageSize[288 792]/ImagingBBox null>>setpagedevice"
-*PageSize w288h936/4.00x13.00": "<</PageSize[288 936]/ImagingBBox null>>setpagedevice"
+
+*PageSize LW1744907/1744907 4"x6" (104mmx159mm): "<</PageSize[294 450]/ImagingBBox null>>setpagedevice"
+*PageSize LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "<</PageSize[79 252]/ImagingBBox null>>setpagedevice"
+*PageSize LW30336/30336 1"x2 1/8" (25mmx54mm): "<</PageSize[70 153]/ImagingBBox null>>setpagedevice"
+*PageSize LW30256/30256 2 5/16"x4" (59mmx102mm): "<</PageSize[167 289]/ImagingBBox null>>setpagedevice"
+*PageSize LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "<</PageSize[161 90]/ImagingBBox null>>setpagedevice"
+*PageSize DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "<</PageSize[82 255]/ImagingBBox null>>setpagedevice"
+*PageSize DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "<</PageSize[175 283]/ImagingBBox null>>setpagedevice"
+*PageSize DK1241/DK-(1)1241 4"x6" (102mmx152mm): "<</PageSize[289 430]/ImagingBBox null>>setpagedevice"
 
 *PageSize wfw100h100/100x100mm(WF): "<</PageSize[284 290]/ImagingBBox null>>setpagedevice"
 
@@ -129,8 +136,15 @@
 *PageRegion w288h432/4.00x6.00": "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
 *PageRegion w288h468/4.00x6.50": "<</PageSize[288 468]/ImagingBBox null>>setpagedevice"
 *PageRegion w288h576/4.00x8.00": "<</PageSize[288 576]/ImagingBBox null>>setpagedevice"
-*PageRegion w288h792/4.00x11.00": "<</PageSize[288 792]/ImagingBBox null>>setpagedevice"
-*PageRegion w288h936/4.00x13.00": "<</PageSize[288 936]/ImagingBBox null>>setpagedevice"
+
+*PageRegion LW1744907/1744907 4"x6" (104mmx159mm): "<</PageSize[294 450]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "<</PageSize[79 252]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30336/30336 1"x2 1/8" (25mmx54mm): "<</PageSize[70 153]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30256/30256 2 5/16"x4" (59mmx102mm): "<</PageSize[167 289]/ImagingBBox null>>setpagedevice"
+*PageRegion LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "<</PageSize[161 90]/ImagingBBox null>>setpagedevice"
+*PageRegion DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "<</PageSize[82 255]/ImagingBBox null>>setpagedevice"
+*PageRegion DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "<</PageSize[175 283]/ImagingBBox null>>setpagedevice"
+*PageRegion DK1241/DK-(1)1241 4"x6" (102mmx152mm): "<</PageSize[289 430]/ImagingBBox null>>setpagedevice"
 
 *PageRegion wfw100h100/100x100mm(WF): "<</PageSize[284 290]/ImagingBBox null>>setpagedevice"
 
@@ -178,10 +192,18 @@
 *ImageableArea w288h432/4.00x6.00": "0 0 288 432"
 *ImageableArea w288h468/4.00x6.50": "0 0 288 468"
 *ImageableArea w288h576/4.00x8.00": "0 0 288 576"
-*ImageableArea w288h792/4.00x11.00": "0 0 288 792"
-*ImageableArea w288h936/4.00x13.00": "0 0 288 936"
+
+*ImageableArea LW1744907/1744907 4"x6" (104mmx159mm): "0 0 294 450"
+*ImageableArea LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "0 0 79 252"
+*ImageableArea LW30336/30336 1"x2 1/8" (25mmx54mm): "0 0 70 153"
+*ImageableArea LW30256/30256 2 5/16"x4" (59mmx102mm): "0 0 167 289"
+*ImageableArea LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "0 0 161 90"
+*ImageableArea DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "0 0 82 255"
+*ImageableArea DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "0 0 175 283"
+*ImageableArea DK1241/DK-(1)1241 4"x6" (102mmx152mm): "0 0 289 430"
 
 *ImageableArea wfw100h100/100x100mm(WF): "0 0 284 290"
+
 
 *DefaultPaperDimension: w288h432
 *PaperDimension w90h18/1.25x0.25": "90 18"
@@ -225,17 +247,24 @@
 *PaperDimension w288h432/4.00x6.00": "288 432"
 *PaperDimension w288h468/4.00x6.50": "288 468"
 *PaperDimension w288h576/4.00x8.00": "288 576"
-*PaperDimension w288h792/4.00x11.00": "288 792"
-*PaperDimension w288h936/4.00x13.00": "288 936"
+
+*PaperDimension LW1744907/1744907 4"x6" (104mmx159mm): "294 450"
+*PaperDimension LW30252/30252 1 1/8"x3 1/2" (28mmx89mm): "79 252"
+*PaperDimension LW30336/30336 1"x2 1/8" (25mmx54mm): "70 153"
+*PaperDimension LW30256/30256 2 5/16"x4" (59mmx102mm): "167 289"
+*PaperDimension LW30334/30334 2 1/4"x1 1/4" (57mmx32mm): "161 90"
+*PaperDimension DK1201/DK-(1)1201 1-1/7"x3-1/2" (29mmx90mm): "82 255"
+*PaperDimension DK1202/DK-(1)1202 2-3/7"x4"(62mmx100mm): "175 283"
+*PaperDimension DK1241/DK-(1)1241 4"x6" (102mmx152mm): "289 430"
 
 *PaperDimension wfw100h100/100x100mm(WF): "284 290"
 
 *MaxMediaWidth: "341"
-*MaxMediaHeight: "6480"
+*MaxMediaHeight: "652"
 *HWMargins: 0 0 0 0
 *CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
 *ParamCustomPageSize Width: 1 points 10 341
-*ParamCustomPageSize Height: 2 points 10 6480
+*ParamCustomPageSize Height: 2 points 10 652
 *ParamCustomPageSize WidthOffset: 3 points 0 0
 *ParamCustomPageSize HeightOffset: 4 points 0 0
 *ParamCustomPageSize Orientation: 5 int 0 0
@@ -243,25 +272,76 @@
 
 *OpenUI *Resolution/Resolution: PickOne
 *OrderDependency: 10 AnySetup *Resolution
-*DefaultResolution: 300dpi
-*Resolution 300dpi/300 dpi x 300 dpi: "<</HWResolution[300 300]/cupsBitsPerColor 8/cupsRowCount 8/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 0>>setpagedevice"
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 dpi x 203 dpi: "<</HWResolution[203 203]/cupsBitsPerColor 8/cupsRowCount 8/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 0>>setpagedevice"
 *CloseUI: *Resolution
 
 
 *OpenGroup: PrinterSettings/Printer Settings
 
-*OpenUI *PrintMethod/Printing Method: PickOne
-*OrderDependency: 20 AnySetup *PrintMethod
-*DefaultPrintMethod: none
-*PrintMethod none/Use printer setting: ""
-*PrintMethod thermal/Thermal: ""
-*PrintMethod thermalTransfer/Thermal Transfer: ""
-*CloseUI: *PrintMethod
+*OpenUI *zeMediaTracking/Media Tracking: PickOne
+*OrderDependency: 20 AnySetup *zeMediaTracking
+*DefaultzeMediaTracking: Gap
+*zeMediaTracking Continuous/Continuous: ""
+*zeMediaTracking Gap/Gap: ""
+*zeMediaTracking BLine/Black Line: ""
+*CloseUI: *zeMediaTracking
+
+*OpenUI *GapHeight/Gap or Mark Height: PickOne
+*OrderDependency: 20 AnySetup *GapHeight
+*DefaultGapHeight: 3
+*GapHeight 0/0mm: ""
+*GapHeight 1/1mm: ""
+*GapHeight 2/2mm: ""
+*GapHeight 3/3mm: ""
+*GapHeight 4/4mm: ""
+*GapHeight 5/5mm: ""
+*GapHeight 6/6mm: ""
+*GapHeight 7/7mm: ""
+*GapHeight 8/8mm: ""
+*GapHeight 9/9mm: ""
+
+
+
+
+
+
+
+
+
+
+
+*CloseUI: *GapHeight
+
+*OpenUI *GapOffset/Gap or Mark Offset: PickOne
+*OrderDependency: 20 AnySetup *GapOffset
+*DefaultGapOffset: 0
+*GapOffset 0/0mm: ""
+*GapOffset 1/1mm: ""
+*GapOffset 2/2mm: ""
+*GapOffset 3/3mm: ""
+*GapOffset 4/4mm: ""
+*GapOffset 5/5mm: ""
+*GapOffset 6/6mm: ""
+*GapOffset 7/7mm: ""
+*GapOffset 8/8mm: ""
+*GapOffset 9/9mm: ""
+
+
+
+
+
+
+
+
+
+
+
+*CloseUI: *GapOffset
 
 *OpenUI *Darkness/Darkness: PickOne
 *OrderDependency: 20 AnySetup *Darkness
-*DefaultDarkness: Default
-*Darkness Default/Printer Default: ""
+*DefaultDarkness: 8
 *Darkness 0: "%%"
 *Darkness 1: "%%"
 *Darkness 2: "%%"
@@ -283,13 +363,10 @@
 *OpenUI *zePrintRate/Print Speed: PickOne
 *OrderDependency: 20 AnySetup *zePrintRate
 *DefaultzePrintRate: 4
-*zePrintRate Default/Printer Default: ""
-*zePrintRate 1/1: ""
 *zePrintRate 2/2: ""
 *zePrintRate 3/3: ""
 *zePrintRate 4/4: ""
 *zePrintRate 5/5: ""
-*zePrintRate 6/6: ""
 *CloseUI: *zePrintRate
 
 *OpenUI *ColorOption/ColorOption: PickOne
@@ -323,124 +400,10 @@
 *DegreeOfGrayRecognition 7/7: ""
 *CloseUI: *DegreeOfGrayRecognition
 
-*OpenUI *AfterPrint/After Print: PickOne
-*OrderDependency: 20 AnySetup *AfterPrint
-*DefaultAfterPrint: tear
-*AfterPrint none/None: ""
-*AfterPrint tear/Tear off: ""
-*AfterPrint peel/Peel off: ""
-*AfterPrint cut/Cut: ""
-*CloseUI: *AfterPrint
-
-*OpenUI *FeedOffset/Feed Offset: PickOne
-*OrderDependency: 20 AnySetup *FeedOffset
-*DefaultFeedOffset: 0
-*FeedOffset -20/-20mm: "%%"
-*FeedOffset -19/-19mm: "%%"
-*FeedOffset -18/-18mm: "%%"
-*FeedOffset -17/-17mm: "%%"
-*FeedOffset -16/-16mm: "%%"
-*FeedOffset -15/-15mm: "%%"
-*FeedOffset -14/-14mm: "%%"
-*FeedOffset -13/-13mm: "%%"
-*FeedOffset -12/-12mm: "%%"
-*FeedOffset -11/-11mm: "%%"
-*FeedOffset -10/-10mm: "%%"
-*FeedOffset -9/-9mm: "%%"
-*FeedOffset -8/-8mm: "%%"
-*FeedOffset -7/-7mm: "%%"
-*FeedOffset -6/-6mm: "%%"
-*FeedOffset -5/-5mm: "%%"
-*FeedOffset -4/-4mm: "%%"
-*FeedOffset -3/-3mm: "%%"
-*FeedOffset -2/-2mm: "%%"
-*FeedOffset -1/-1mm: "%%"
-*FeedOffset 0/0mm: "%%"
-*FeedOffset 1/1mm: "%%"
-*FeedOffset 2/2mm: "%%"
-*FeedOffset 3/3mm: "%%"
-*FeedOffset 4/4mm: "%%"
-*FeedOffset 5/5mm: "%%"
-*FeedOffset 6/6mm: "%%"
-*FeedOffset 7/7mm: "%%"
-*FeedOffset 8/8mm: "%%"
-*FeedOffset 9/9mm: "%%"
-*FeedOffset 10/10mm: "%%"
-*FeedOffset 11/11mm: "%%"
-*FeedOffset 12/12mm: "%%"
-*FeedOffset 13/13mm: "%%"
-*FeedOffset 14/14mm: "%%"
-*FeedOffset 15/15mm: "%%"
-*FeedOffset 16/16mm: "%%"
-*FeedOffset 17/17mm: "%%"
-*FeedOffset 18/18mm: "%%"
-*FeedOffset 19/19mm: "%%"
-*FeedOffset 20/20mm: "%%"
-*CloseUI: *FeedOffset
 
 *CloseGroup: PrinterSettings
 
 *OpenGroup: PageSet/Page Options
-
-*OpenUI *zeMediaTracking/Media Tracking: PickOne
-*OrderDependency: 130 AnySetup *zeMediaTracking
-*DefaultzeMediaTracking: Gap
-*zeMediaTracking Continuous/Continuous: ""
-*zeMediaTracking Gap/Gap: ""
-*zeMediaTracking BLine/Black Line: ""
-*CloseUI: *zeMediaTracking
-
-*OpenUI *GapHeight/Gap or Mark Height: PickOne
-*OrderDependency: 130 AnySetup *GapHeight
-*DefaultGapHeight: 3
-*GapHeight 0/0mm: ""
-*GapHeight 1/1mm: ""
-*GapHeight 2/2mm: ""
-*GapHeight 3/3mm: ""
-*GapHeight 4/4mm: ""
-*GapHeight 5/5mm: ""
-*GapHeight 6/6mm: ""
-*GapHeight 7/7mm: ""
-*GapHeight 8/8mm: ""
-*GapHeight 9/9mm: ""
-*GapHeight 10/10mm: ""
-*GapHeight 11/11mm: ""
-*GapHeight 12/12mm: ""
-*GapHeight 13/13mm: ""
-*GapHeight 14/14mm: ""
-*GapHeight 15/15mm: ""
-*GapHeight 16/16mm: ""
-*GapHeight 17/17mm: ""
-*GapHeight 18/18mm: ""
-*GapHeight 19/19mm: ""
-*GapHeight 20/20mm: ""
-*CloseUI: *GapHeight
-
-*OpenUI *GapOffset/Gap or Mark Offset: PickOne
-*OrderDependency: 130 AnySetup *GapOffset
-*DefaultGapOffset: 0
-*GapOffset 0/0mm: ""
-*GapOffset 1/1mm: ""
-*GapOffset 2/2mm: ""
-*GapOffset 3/3mm: ""
-*GapOffset 4/4mm: ""
-*GapOffset 5/5mm: ""
-*GapOffset 6/6mm: ""
-*GapOffset 7/7mm: ""
-*GapOffset 8/8mm: ""
-*GapOffset 9/9mm: ""
-*GapOffset 10/10mm: ""
-*GapOffset 11/11mm: ""
-*GapOffset 12/12mm: ""
-*GapOffset 13/13mm: ""
-*GapOffset 14/14mm: ""
-*GapOffset 15/15mm: ""
-*GapOffset 16/16mm: ""
-*GapOffset 17/17mm: ""
-*GapOffset 18/18mm: ""
-*GapOffset 19/19mm: ""
-*GapOffset 20/20mm: ""
-*CloseUI: *GapOffset
 
 *OpenUI *AdjustHoriaontal/Horizontal Offset:PickOne
 *OrderDependency: 130 AnySetup *AdjustHoriaontal
@@ -586,11 +549,57 @@
 
 *OpenUI *Rotate/Rotate: PickOne
 *OrderDependency: 160 AnySetup *Rotate
-*DefaultRotate: 0
+*DefaultRotate: 1
 *Rotate 0/0: "%%"
 *Rotate 1/180: "%%"
 *CloseUI: *Rotate
 
+
+*OpenUI *FeedOffset/Feed Offset: PickOne
+*OrderDependency: 160 AnySetup *FeedOffset
+*DefaultFeedOffset: 0
+*FeedOffset -20/-20mm: "%%"
+*FeedOffset -19/-19mm: "%%"
+*FeedOffset -18/-18mm: "%%"
+*FeedOffset -17/-17mm: "%%"
+*FeedOffset -16/-16mm: "%%"
+*FeedOffset -15/-15mm: "%%"
+*FeedOffset -14/-14mm: "%%"
+*FeedOffset -13/-13mm: "%%"
+*FeedOffset -12/-12mm: "%%"
+*FeedOffset -11/-11mm: "%%"
+*FeedOffset -10/-10mm: "%%"
+*FeedOffset -9/-9mm: "%%"
+*FeedOffset -8/-8mm: "%%"
+*FeedOffset -7/-7mm: "%%"
+*FeedOffset -6/-6mm: "%%"
+*FeedOffset -5/-5mm: "%%"
+*FeedOffset -4/-4mm: "%%"
+*FeedOffset -3/-3mm: "%%"
+*FeedOffset -2/-2mm: "%%"
+*FeedOffset -1/-1mm: "%%"
+*FeedOffset 0/0mm: "%%"
+*FeedOffset 1/1mm: "%%"
+*FeedOffset 2/2mm: "%%"
+*FeedOffset 3/3mm: "%%"
+*FeedOffset 4/4mm: "%%"
+*FeedOffset 5/5mm: "%%"
+*FeedOffset 6/6mm: "%%"
+*FeedOffset 7/7mm: "%%"
+*FeedOffset 8/8mm: "%%"
+*FeedOffset 9/9mm: "%%"
+*FeedOffset 10/10mm: "%%"
+*FeedOffset 11/11mm: "%%"
+*FeedOffset 12/12mm: "%%"
+*FeedOffset 13/13mm: "%%"
+*FeedOffset 14/14mm: "%%"
+*FeedOffset 15/15mm: "%%"
+*FeedOffset 16/16mm: "%%"
+*FeedOffset 17/17mm: "%%"
+*FeedOffset 18/18mm: "%%"
+*FeedOffset 19/19mm: "%%"
+*FeedOffset 20/20mm: "%%"
+*CloseUI: *FeedOffset
 
 *CloseGroup: PageSet
 
@@ -618,15 +627,6 @@
 *zh_CN.Translation AdjustMinorVertical/垂直偏移微调: ""
 *zh_CN.Translation Rotate/旋转: ""
 *zh_CN.Translation FeedOffset/打印后走纸: ""
-*zh_CN.Translation PrintMethod/打印方式: ""
-*zh_CN.PrintMethod none/使用打印机设置: ""
-*zh_CN.PrintMethod thermal/热敏: ""
-*zh_CN.PrintMethod thermalTransfer/热转印: ""
-*zh_CN.Translation AfterPrint/打印后操作: ""
-*zh_CN.AfterPrint none/无: ""
-*zh_CN.AfterPrint tear/撕纸: ""
-*zh_CN.AfterPrint peel/剥离: ""
-*zh_CN.AfterPrint cut/裁切: ""
 *zh_CN.Translation DegreeOfBlackRecognition/黑白识别度: ""
 *zh_CN.Translation DegreeOfGrayRecognition/灰度识别度: ""
 
@@ -654,15 +654,6 @@
 *zh_TW.Translation AdjustMinorVertical/垂直偏移微調: ""
 *zh_TW.Translation Rotate/旋轉: ""
 *zh_TW.Translation FeedOffset/打印后走紙: ""
-*zh_TW.Translation PrintMethod/打印方式: ""
-*zh_TW.PrintMethod none/使用打印機設置: ""
-*zh_TW.PrintMethod thermal/熱敏: ""
-*zh_TW.PrintMethod thermalTransfer/熱轉印: ""
-*zh_TW.Translation AfterPrint/打印後操作: ""
-*zh_TW.AfterPrint none/無: ""
-*zh_TW.AfterPrint tear/撕紙: ""
-*zh_TW.AfterPrint peel/剝離: ""
-*zh_TW.AfterPrint cut/裁切: ""
 *zh_TW.Translation DegreeOfBlackRecognition/黑白識別度: ""
 *zh_TW.Translation DegreeOfGrayRecognition/灰度識別度: ""
 
@@ -690,15 +681,6 @@
 *de.Translation AdjustMinorVertical/Vertikaler Versatz +: ""
 *de.Translation Rotate/Drehen: ""
 *de.Translation FeedOffset/Nach dem Druck: ""
-*de.Translation PrintMethod/Druckverfahren: ""
-*de.PrintMethod none/Druckereinstellungen verwenden: ""
-*de.PrintMethod thermal/Thermal: ""
-*de.PrintMethod thermalTransfer/Thermische übertragung: ""
-*de.Translation AfterPrint/Nach Druck: ""
-*de.AfterPrint none/Keiner: ""
-*de.AfterPrint tear/Abreißen: ""
-*de.AfterPrint peel/Abziehen: ""
-*de.AfterPrint cut/Schneiden: ""
 *de.Translation DegreeOfBlackRecognition/Grad der Schwarzerkennung: ""
 *de.Translation DegreeOfGrayRecognition/Grad der Grauerkennung: ""
 
@@ -726,15 +708,6 @@
 *pl.Translation AdjustMinorVertical/Przesunięcie pionowe +: ""
 *pl.Translation Rotate/Obróc: ""
 *pl.Translation FeedOffset/Po wydrukowaniu: ""
-*pl.Translation PrintMethod/Metoda drukowania: ""
-*pl.PrintMethod none/Użyj ustawień drukarki: ""
-*pl.PrintMethod thermal/Termiczny: ""
-*pl.PrintMethod thermalTransfer/Termotransfer: ""
-*pl.Translation AfterPrint/Po wydrukowaniu: ""
-*pl.AfterPrint none/Żaden: ""
-*pl.AfterPrint tear/Oderwać: ""
-*pl.AfterPrint peel/Odkleić: ""
-*pl.AfterPrint cut/Skaleczenie: ""
 *pl.Translation DegreeOfBlackRecognition/Stopień rozpoznania czerni: ""
 *pl.Translation DegreeOfGrayRecognition/Stopień rozpoznania szarości: ""
 
@@ -762,15 +735,6 @@
 *fr.Translation AdjustMinorVertical/décalage vertical +: ""
 *fr.Translation Rotate/Orientation: ""
 *fr.Translation FeedOffset/Après-impression: ""
-*fr.Translation PrintMethod/Méthode d'impression: ""
-*fr.PrintMethod none/Utiliser les paramètres de l'imprimante: ""
-*fr.PrintMethod thermal/Thermique: ""
-*fr.PrintMethod thermalTransfer/Transfert thermique: ""
-*fr.Translation AfterPrint/Après impression: ""
-*fr.AfterPrint none/Rien: ""
-*fr.AfterPrint tear/Arracher: ""
-*fr.AfterPrint peel/Se détacher: ""
-*fr.AfterPrint cut/Couper: ""
 *fr.Translation DegreeOfBlackRecognition/Degré de reconnaissance du noir: ""
 *fr.Translation DegreeOfGrayRecognition/Degré de reconnaissance des gris: ""
 
@@ -798,15 +762,6 @@
 *es.Translation AdjustMinorVertical/Vertical offset +: ""
 *es.Translation Rotate/Configuración de rotación: ""
 *es.Translation FeedOffset/Expulsión de la página después de la impresión: ""
-*es.Translation PrintMethod/Método de impresión: ""
-*es.PrintMethod none/Usar la configuración de la impresora: ""
-*es.PrintMethod thermal/Térmico: ""
-*es.PrintMethod thermalTransfer/Transferencia térmica: ""
-*es.Translation AfterPrint/Después de imprimir: ""
-*es.AfterPrint none/Ninguna: ""
-*es.AfterPrint tear/Arrancar: ""
-*es.AfterPrint peel/Despegar: ""
-*es.AfterPrint cut/Cortar: ""
 *es.Translation DegreeOfBlackRecognition/Grado de reconocimiento de negros: ""
 *es.Translation DegreeOfGrayRecognition/Grado de reconocimiento de grises: ""
 
@@ -834,15 +789,6 @@
 *it.Translation AdjustMinorVertical/Offset verticale +: ""
 *it.Translation Rotate/Impostazionei Rotazione: ""
 *it.Translation FeedOffset/Espulsione carta dopo stampa: ""
-*it.Translation PrintMethod/Metodo di stampa: ""
-*it.PrintMethod none/Usa le impostazioni della stampante: ""
-*it.PrintMethod thermal/Termico: ""
-*it.PrintMethod thermalTransfer/Trasferimento termico: ""
-*it.Translation AfterPrint/Dopo la stampa: ""
-*it.AfterPrint none/Nessuno: ""
-*it.AfterPrint tear/Strappare carta: ""
-*it.AfterPrint peel/Spogliare: ""
-*it.AfterPrint cut/Taglio: ""
 *it.Translation DegreeOfBlackRecognition/Grado di riconoscimento del nero: ""
 *it.Translation DegreeOfGrayRecognition/Grado di riconoscimento grigio: ""
 
@@ -870,15 +816,6 @@
 *ro.Translation AdjustMinorVertical/Vertical +: ""
 *ro.Translation Rotate/Rotire: ""
 *ro.Translation FeedOffset/Dupa print: ""
-*ro.Translation PrintMethod/Metodă de imprimare: ""
-*ro.PrintMethod none/Utilizează setarea imprimantei: ""
-*ro.PrintMethod thermal/Termic: ""
-*ro.PrintMethod thermalTransfer/Transfer termic: ""
-*ro.Translation AfterPrint/după imprimare: ""
-*ro.AfterPrint none/Niciunul: ""
-*ro.AfterPrint tear/Rupeti: ""
-*ro.AfterPrint peel/Dezlipiti: ""
-*ro.AfterPrint cut/Taiati: ""
 *ro.Translation DegreeOfBlackRecognition/Gradul de recunoaștere neagră: ""
 *ro.Translation DegreeOfGrayRecognition/Gradul de recunoaștere gri: ""
 
@@ -906,15 +843,6 @@
 *nl.Translation AdjustMinorVertical/verticaal +: ""
 *nl.Translation Rotate/rotatie: ""
 *nl.Translation FeedOffset/Voer papier in na het afdrukken: ""
-*nl.Translation PrintMethod/afdrukmethode: ""
-*nl.PrintMethod none/Gebruik printerinstellingen: ""
-*nl.PrintMethod thermal/hitte gevoelig: ""
-*nl.PrintMethod thermalTransfer/thermische overdracht: ""
-*nl.Translation AfterPrint/Bediening na het afdrukken: ""
-*nl.AfterPrint none/geen: ""
-*nl.AfterPrint tear/gescheurd papier: ""
-*nl.AfterPrint peel/verwijderen: ""
-*nl.AfterPrint cut/snijden: ""
 *nl.Translation DegreeOfBlackRecognition/Zwart Herkenning: ""
 *nl.Translation DegreeOfGrayRecognition/Grijze Herkenning: ""
 
@@ -942,15 +870,6 @@
 *id.Translation AdjustMinorVertical/Vertikal Offset +: ""
 *id.Translation Rotate/Pengaturan Rotasi: ""
 *id.Translation FeedOffset/Umpankan Kertas Setelah Pencetakan: ""
-*id.Translation PrintMethod/Metode Pencetakan: ""
-*id.PrintMethod none/Gunakan Pengaturan Pencetak: ""
-*id.PrintMethod thermal/Termosensitif: ""
-*id.PrintMethod thermalTransfer/Perpindahan Termal: ""
-*id.Translation AfterPrint/Operasi Pasca Pencetakan: ""
-*id.AfterPrint none/Tidak Ada: ""
-*id.AfterPrint tear/Kertas Sobek: ""
-*id.AfterPrint peel/Kupas: ""
-*id.AfterPrint cut/Tanaman: ""
 *id.Translation DegreeOfBlackRecognition/Pengakuan Hitam: ""
 *id.Translation DegreeOfGrayRecognition/Pengakuan Abu-Abu: ""
 
@@ -978,17 +897,69 @@
 *tr.Translation AdjustMinorVertical/Dikey Ofseti +: ""
 *tr.Translation Rotate/Dönüş Ayarları: ""
 *tr.Translation FeedOffset/Baskı Sonrası Kağıt İlerlemesi: ""
-*tr.Translation PrintMethod/Baskı Yöntemi: ""
-*tr.PrintMethod none/Yazıcı Ayarlarını Kullan: ""
-*tr.PrintMethod thermal/Termal: ""
-*tr.PrintMethod thermalTransfer/Termal Transfer: ""
-*tr.Translation AfterPrint/Baskı Sonrası İşlem: ""
-*tr.AfterPrint none/Yok: ""
-*tr.AfterPrint tear/Yırtma: ""
-*tr.AfterPrint peel/Soyma: ""
-*tr.AfterPrint cut/Kesme: ""
 *tr.Translation DegreeOfBlackRecognition/Siyah Tanınma Derecesi: ""
 *tr.Translation DegreeOfGrayRecognition/Gri Tanınma Derecesi: ""
+
+*th.Translation General/ทั่วไป: ""
+*th.Translation PageSet/ตัวเลือกหน้า: ""
+*th.Translation PrinterSettings/การตั้งค่าเครื่องพิมพ์: ""
+*th.Translation PageSize/ชื่อกระดาษ: ""
+*th.Translation Resolution/ปณิธาน: ""
+*th.Translation zeMediaTracking/ประเภทกระดาษ: ""
+*th.zeMediaTracking Continuous/กระดาษต่อเนื่อง: ""
+*th.zeMediaTracking Gap/กระดาษช่องว่าง: ""
+*th.zeMediaTracking BLine/กระดาษมาร์คสีดำ: ""
+*th.Translation GapHeight/ช่องว่างเส้นสีดำความสูง: ""
+*th.Translation GapOffset/ช่องว่างเส้นสีดำออฟเซ็ต: ""
+*th.Translation Darkness/ความหนาแน่นของการพิมพ์: ""
+*th.Darkness Default/ค่าเริ่มต้น: ""
+*th.Translation zePrintRate/ความเร็วในการพิมพ์: ""
+*th.zePrintRate Default/ค่าเริ่มต้น: ""
+*th.Translation ColorOption/ตัวเลือกสี: ""
+*th.ColorOption None/ไม่มี: ""
+*th.ColorOption GrayScale/ระดับสีเทา: ""
+*th.Translation AdjustHoriaontal/ปรับแนวนอน: ""
+*th.Translation AdjustMinorHoriaontal/ปรับแนวนอน +: ""
+*th.Translation AdjustVertical/ปรับแนวตั้ง: ""
+*th.Translation AdjustMinorVertical/ปรับแนวตั้ +: ""
+*th.Translation Rotate/การตั้งค่าการหมุน: ""
+*th.Translation FeedOffset/ป้อนกระดาษหลังการพิมพ์: ""
+*th.Translation RoundLabel/ป้ายกลม: ""
+*th.RoundLabel Yes/ใช่: ""
+*th.RoundLabel No/เลขที่: ""
+*th.Translation DegreeOfBlackRecognition/ระดับการจดจำสีดำ: ""
+*th.Translation DegreeOfGrayRecognition/ระดับการจดจำสีเทา: ""
+
+*ko.Translation General/일반적인: ""
+*ko.Translation PageSet/페이지 옵션: ""
+*ko.Translation PrinterSettings/프린터 설정: ""
+*ko.Translation PageSize/용지 이름: ""
+*ko.Translation Resolution/해결: ""
+*ko.Translation zeMediaTracking/용지 종류: ""
+*ko.zeMediaTracking Continuous/연속지: ""
+*ko.zeMediaTracking Gap/간극지: ""
+*ko.zeMediaTracking BLine/블랙 마크 용지: ""
+*ko.Translation GapHeight/간격 또는 블랙 마크 높이 값: ""
+*ko.Translation GapOffset/간격 또는 블랙 마크 오프셋 값: ""
+*ko.Translation Darkness/인쇄 농도: ""
+*ko.Darkness Default/기본: ""
+*ko.Translation zePrintRate/인쇄 속도: ""
+*ko.zePrintRate Default/기본: ""
+*ko.Translation ColorOption/색상 옵션: ""
+*ko.ColorOption None/없음: ""
+*ko.ColorOption GrayScale/그레이스케일: ""
+*ko.Translation AdjustHoriaontal/수평 조정: ""
+*ko.Translation AdjustMinorHoriaontal/수평 조정 +: ""
+*ko.Translation AdjustVertical/수직 조정: ""
+*ko.Translation AdjustMinorVertical/수직 조정 +: ""
+*ko.Translation Rotate/회전 설정: ""
+*ko.Translation FeedOffset/인쇄 후 용지 공급: ""
+*ko.Translation RoundLabel/원형 라벨: ""
+*ko.RoundLabel Yes/예: ""
+*ko.RoundLabel No/아니요: ""
+*ko.Translation DegreeOfBlackRecognition/검정 인식 정도: ""
+*ko.Translation DegreeOfGrayRecognition/회색 인식 정도: ""
+
 
 *DefaultFont: Courier
 *Font AvantGarde-Book: Standard "(1.05)" Standard ROM
